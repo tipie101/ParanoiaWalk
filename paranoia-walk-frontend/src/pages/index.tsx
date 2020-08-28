@@ -6,6 +6,7 @@ import {
   List,
   ListIcon,
   ListItem,
+  DarkMode,
 } from '@chakra-ui/core'
 
 import { Hero } from '../components/Hero'
@@ -44,7 +45,7 @@ const Index = () => (
       </List>
     </Main>
 
-    <DarkModeSwitch />
+    {/* <DarkModeSwitch /> */}
     <Footer>
       <Text>Next ❤️ Chakra</Text>
     </Footer>
