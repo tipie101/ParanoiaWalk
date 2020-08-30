@@ -4,11 +4,6 @@ import { AppService } from './app.service';
 import { Request } from 'express';
 import { Int, MapPosition, roundToInt } from './statics/types';
 
-function saveError(field: string, msg: string, errors: Array<any>) {
-  // TODO: build a error-Object instead of this stub function
-  errors.push({field: field, msg: msg});
-}
-
 // TODO: Translate Messages to English
 
 @Controller()

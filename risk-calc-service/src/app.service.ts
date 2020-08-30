@@ -23,7 +23,7 @@ async function fetchCurrentHour(position: MapPosition): Promise<Int> {
       .then((res: AxiosResponse<any>) => {
         return res.data.formatted;
       });
-  console.log(dateTimeFormatted);
+  // console.log(dateTimeFormatted);
 
   const time: string = dateTimeFormatted.slice(dateTimeFormatted.indexOf(" ") + 1); 
   const hour: number = +time.slice(0, time.indexOf(":"));
