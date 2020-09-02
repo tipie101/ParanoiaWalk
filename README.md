@@ -23,4 +23,4 @@ corana infected
 HTML/CSS - UI
 Typescript
 RestJS
-(DB - optional for now...)
+SQLite3
