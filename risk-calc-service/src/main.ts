@@ -4,7 +4,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { __port__ } from './statics/constants';
 
-const whitelist = ['http://localhost:3000', 'http://localhost:4000'];
+const whitelist = ['http://localhost:3000', 'http://localhost:3001'];
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
